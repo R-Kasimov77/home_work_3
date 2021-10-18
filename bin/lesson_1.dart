@@ -87,16 +87,6 @@ void main(List<String> arguments) {
 
 
 
-// List d =[12, 15, 20, 25, 59, 79];
-// double summ = 0; 
-
-// for (int i = 0; i<d.length; i++){
-//   summ += d[i];
-// }
-// summ = summ / d.length; 
-// print(summ);
-// }
-
 
 
   
