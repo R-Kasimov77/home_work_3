@@ -2,7 +2,7 @@
 
 void main(List<String> arguments) {
 // Задача номер 1
-  print("Задача 1");
+  print("Задача номер 1");
   int finger = 1;
     if(finger==1){
   print("большой палец");
