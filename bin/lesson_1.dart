@@ -72,17 +72,18 @@ void main(List<String> arguments) {
   print("Дополнительная задча");
   int a1 = 10;
   int result;
-  for (int i = 0; i < a1; i++) {
-    if (a1 <= 11 && a1 > 0) {
-      result = i * 1;
-      print("$i * 1 = $result");
-    } else {
-      print("Конец Работы");
-      break;
+  if (a1 >0 && a1<11){
+    for (int i = 0; i < a1; i++){
+      result = i * a1; 
+     print("$i * $a1 = $result");
     }
-  }
-}
+    }
+     else{
+      print("конец работы");
+    }
+  
 
+  }
 
 
 
